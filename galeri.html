@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <title>COOK4ME | Galeri</title> 
+        <link rel="stylesheet" href="css/style.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+    </head>
+
+    <body>
+        <div class="Menu">
+            <div class="Logo">
+                <a href="index.html">COOK4ME | <span>Seda Karkacıer</span></a>
+            </div>
+
+            <ul>
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="yemekler.html">Yemekler</a></li>
+                <li><a href="tatlilar.html">Tatlılar</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="iletisim.html">İletişim Bilgileri</a></li>
+                <li><a href="girisyap.html">Üye Ol / Giriş Yap</a></li>
+            </ul>
+
+        </div>
+        <div id="AnaSayfa">
+            <header>
+                <img id="kapak" src="tasarımlar/kapak.jpg" alt="">
+            </header>
+            
+            <section>
+                <h2>GALERİ</h2>
+                <img id="myImg01" onclick="showModal('myImg01')" src="Tasarımlar/thumbnails/CikolataliCheesecake-1.jpg" alt="" class="galeri"/>
+                <img id="myImg02" onclick="showModal('myImg02')" src="Tasarımlar/thumbnails/CikolataliCheesecake-2.jpg" alt="" class="galeri"/>
+                <img id="myImg03" onclick="showModal('myImg03')" src="Tasarımlar/thumbnails/CikolataliKurabiye-1.jpg" alt="" class="galeri"/>
+                <img id="myImg04" onclick="showModal('myImg04')" src="Tasarımlar/thumbnails/CikolataliKurabiye-2.jpg" alt="" class="galeri"/>
+                <img id="myImg05" onclick="showModal('myImg05')" src="Tasarımlar/thumbnails/IslakKek-1.jpg" alt="" class="galeri"/>
+                <img id="myImg06" onclick="showModal('myImg06')" src="Tasarımlar/thumbnails/IslakKek-2.jpg" alt="" class="galeri"/>
+                <img id="myImg07" onclick="showModal('myImg07')" src="Tasarımlar/thumbnails/LimonluCheesecake-1.jpg" alt="" class="galeri"/>
+                <img id="myImg08" onclick="showModal('myImg08')" src="Tasarımlar/thumbnails/LimonluCheesecake-2.jpg" alt="" class="galeri"/>
+                <img id="myImg09" onclick="showModal('myImg09')" src="Tasarımlar/thumbnails/MeyveliBrownie-1.jpg" alt="" class="galeri"/>
+                <img id="myImg10" onclick="showModal('myImg10')" src="Tasarımlar/thumbnails/MeyveliBrownie-2.jpg" alt="" class="galeri"/>
+                <img id="myImg11" onclick="showModal('myImg11')" src="Tasarımlar/thumbnails/OreoBrownie-1.jpg" alt="" class="galeri"/>
+                <img id="myImg12" onclick="showModal('myImg12')" src="Tasarımlar/thumbnails/OreoBrownie-2.jpg" alt="" class="galeri"/>
+                <img id="myImg13" onclick="showModal('myImg13')" src="Tasarımlar/thumbnails/VanilyaliPasta-1.jpg" alt="" class="galeri"/>
+                <img id="myImg14" onclick="showModal('myImg14')" src="Tasarımlar/thumbnails/VanilyaliPasta-2.jpg" alt="" class="galeri"/>
+                <img id="myImg15" onclick="showModal('myImg15')" src="Tasarımlar/thumbnails/AliNazik-1.jpg" alt="" class="galeri"/>
+                <img id="myImg16" onclick="showModal('myImg16')" src="Tasarımlar/thumbnails/FirindaTavuk-1.jpg" alt="" class="galeri"/>
+                <img id="myImg17" onclick="showModal('myImg17')" src="Tasarımlar/thumbnails/HunkarBegendi-1.jpg" alt="" class="galeri"/>
+                <img id="myImg18" onclick="showModal('myImg18')" src="Tasarımlar/thumbnails/SaksiKebabi-1.jpg" alt="" class="galeri"/>
+                <img id="myImg19" onclick="showModal('myImg19')" src="Tasarımlar/thumbnails/domatescorbasi-1.jpg" alt="" class="galeri"/>
+                <img id="myImg20" onclick="showModal('myImg20')" src="Tasarımlar/thumbnails/mercimekcorbasi-1.jpg" alt="" class="galeri"/>
+                <img id="myImg21" onclick="showModal('myImg21')" src="Tasarımlar/thumbnails/kremalimakarna-1.jpg" alt="" class="galeri"/>
+                <img id="myImg22" onclick="showModal('myImg22')" src="Tasarımlar/thumbnails/mucver-1.jpg" alt="" class="galeri"/>
+                <img id="myImg23" onclick="showModal('myImg23')" src="Tasarımlar/thumbnails/pacangaboregi-1.jpg" alt="" class="galeri"/>
+
+                
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01" onclick="closeModal()">
+                    <div id="caption"></div>
+                </div>
+            </section>
+        </div>
+        <footer>&copy; 2021 Seda Karkacıer <hr/> 
+            <a href="siteharitasi.html">Site Haritası</a>
+        </footer>
+
+    </body>
+    
+    <script src="js/JavaScript.js"></script>
+    
+</html>
